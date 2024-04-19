@@ -5,5 +5,6 @@ WORKDIR /app
 COPY . .
 
 RUN npm install
+RUN npm i redis express response-time nodemon
 
 CMD ["npm", "start"]

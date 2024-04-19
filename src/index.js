@@ -29,5 +29,5 @@ app.get('/pokemon', async (req,res) =>{
     });    
 });
 
-app.listen(3000);
-console.log('server in port 3000');
+app.listen(3001);
+console.log('server in port 3001');

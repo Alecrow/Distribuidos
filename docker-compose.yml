@@ -19,6 +19,6 @@ services:
     environment:
       - REDIS_HOST=caching
     ports:
-      - "3000:3000"
+      - "3001:3001"
     volumes:
-      - ./index.js:/app/index.js
+      - .:/app
